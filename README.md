@@ -1,0 +1,2 @@
+# GWM-Web_LANDINGPAGE
+This repo contains my INTERMEDIATE LEVEL TASK of creating a LANDING PAGE using HTML, CSS AND JAVASCRIPT under @GROWW WITH CODE Internship.

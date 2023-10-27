@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Girassol&family=Inconsolata:wght@200;500;700&display=swap');
 
+/* styling the elements common in every section */
+
 :root {
   --primary-color: teal;
   --primary-color-light: black;
@@ -10,11 +12,15 @@
   --header-font: "Girassol", serif;
 }
 
+/* styling the selector elements */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/* styling each section */
 
 .section__container {
   max-width: var(--max-width);
@@ -37,6 +43,8 @@
   color: brown;
 }
 
+/* styling the buttons */
+
 .btn {
   padding: 0.75rem 1.5rem;
   outline: plum;
@@ -47,6 +55,8 @@
   cursor: pointer;
   border-radius: 20px;
 }
+
+/* styling the images inserted */
 
 img {
   width: 100%;
@@ -63,7 +73,7 @@ body {
   scroll-behavior: smooth;
 }
 
-body {
+body {     /* styling the body */
   font-family: "Inconsolata", monospace;
   font-size: larger;
   font-weight: 700;
@@ -71,13 +81,15 @@ body {
   background-color: var(--primary-color);
 }
 
-header {
+header {  /* styling the header */
   background-image: linear-gradient(to top, var(--primary-color), transparent),
     url("Requirements/home.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* styling the navigation */
 
 nav {
   background-color: rgba(0, 0, 0, 0.5);
@@ -127,6 +139,8 @@ nav {
   cursor: pointer;
 }
 
+/* styling the header area */
+
 .header__container {
   padding: 12rem 1rem;
 }
@@ -156,6 +170,8 @@ nav {
   width: 2rem;
   background-color: var(--white);
 }
+
+/* styling the about section */
 
 .about__container {
   display: grid;
@@ -212,6 +228,8 @@ nav {
   margin: auto;
   border-radius: 20px;
 }
+
+/* styling the discover section */
 
 .discover {
   background-image: linear-gradient(
@@ -284,6 +302,8 @@ nav {
   cursor: pointer;
 }
 
+/* styling the blogs section */
+
 .blogs__container {
   padding: 5rem 5rem;
 }
@@ -332,6 +352,8 @@ nav {
     margin: auto;
 }
 
+/* styling the surprise banner */
+
 .banner__container p {
   text-align: center;
   font-size: 15rem;
@@ -342,6 +364,8 @@ nav {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px var(--extra-light);
 }
+
+/* styling the packages section */
 
 .packages_col {
   float: left;
@@ -379,6 +403,8 @@ nav {
   background-color: #eee;
   font-size: 20px;
 } 
+
+/* styling the gallery section */
 
 .gallery__container {
   padding: 5rem 1rem;
@@ -423,6 +449,8 @@ nav {
 .gallery p {
     font-size: 30px;
 }
+
+/* styling the contact us section */
 
 .contact {
   background-image: linear-gradient(
@@ -474,6 +502,8 @@ nav {
   font-weight: 600;
   font-family: var(--header-font);
 }
+
+/* styling the footer area */
 
 .footer__container {
   text-align: center;
